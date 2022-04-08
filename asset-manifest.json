@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/birthday-reminder-project/static/css/main.267e8c99.css",
+    "main.js": "/birthday-reminder-project/static/js/main.fa3328cb.js",
+    "index.html": "/birthday-reminder-project/index.html",
+    "main.267e8c99.css.map": "/birthday-reminder-project/static/css/main.267e8c99.css.map",
+    "main.fa3328cb.js.map": "/birthday-reminder-project/static/js/main.fa3328cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.267e8c99.css",
+    "static/js/main.fa3328cb.js"
+  ]
+}

@@ -1,0 +1,70 @@
+$text-color: #111111ec;
+
+.listHeading{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: $text-color;
+}
+
+.list{
+    list-style: none;
+}
+
+.itemList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    animation: List_fadeIn__vvc8k 1s ease-in-out;
+    &:hover{
+        .closeBtn{
+            animation: fadeIn 0.3s ease-in forwards;
+        }
+    }
+}
+
+.itemListShow{
+    display: flex;
+}
+
+.closeBtn{
+    font-size: 2rem;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.itemListInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.itemListName{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: $text-color;
+}
+
+.itemListAge{
+    display: block;
+    color: #333333c9;
+}
+
+.itemListImg{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

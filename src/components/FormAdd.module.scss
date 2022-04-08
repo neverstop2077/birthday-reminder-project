@@ -1,0 +1,36 @@
+.form{
+    width: 70%;
+    margin: auto;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.formControl{
+    display: block;
+
+}
+
+.formLabel{
+    display: block;
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+.formInput{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #0000003d;
+    color: #333333c7;
+    outline: none;
+}

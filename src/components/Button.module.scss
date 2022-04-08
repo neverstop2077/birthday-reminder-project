@@ -1,0 +1,17 @@
+.btn{
+    font-size: 1.2rem;
+    background: conic-gradient(from -0.5turn at bottom right, deeppink, cyan, rebeccapurple);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+    &:hover{
+        opacity: 0.9;
+    }
+}
